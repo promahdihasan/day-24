@@ -1,0 +1,157 @@
+@media (max-width:1000px){
+    .header-right ul li a {
+        padding: 10px 15px;
+      }
+    .con-left {
+        width: 100%;
+        padding: 0 20px;
+      }
+    .con-right {
+        width: 100%;
+      }
+    .banner {
+        padding: 160px 20px;
+      }
+    .service-item {
+        margin-left: 1%;
+        width: 48%;
+        margin-bottom: 2%;
+      }
+      .about-me {
+        padding: 0 20px;
+        margin-bottom: 0;
+      }
+
+    .about-me-left {
+        width: 100%;
+      }
+    .about-me-left img {
+        height: auto;
+      } 
+    .about-me-right {
+        width: 100%;
+      }
+}
+
+
+/*Tab Css Started*/
+@media (max-width:768px) {
+    .tab {
+        display: none;
+      }
+
+      .header-left {
+        padding-top: 5px;
+        padding-left: 1em;
+        padding-bottom: 0;
+      }
+
+      #myNav{
+        display: block;
+    }
+    .hemberger {
+      display: inline-block;
+      line-height: 80px;
+      font-size: 36px;
+    }
+
+      .header-right {
+        width: 64%;
+        text-align: right;
+        padding-right: 1em;
+      }
+}
+
+/*Mobile Device Responsive Css*/
+@media (max-width:540px){
+  .header-right {
+    width: 62%;
+
+  }
+  .hemberger {
+    display: inline-block;
+    line-height: 70px;
+    font-size: 34px;
+  }
+
+}
+
+
+@media (max-width:500px){
+  .hemberger {
+    display: inline-block;
+    line-height: 67px;
+    font-size: 30px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+
+
+  
+    .content h2 {
+        font-size: 30px;
+      }
+    .banner {
+        padding: 100px 1em;
+      }
+
+    .service-title h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+    .service {
+        padding: 40px 1em;
+      }
+    .service-item {
+        width: 100%;
+        margin-bottom: 1em;
+        margin-left: 0;
+      }
+
+    .far.fa-lightbulb {
+        font-size: 30px;
+      }
+    .service-item h3 {
+        margin: 10px 0;
+        font-size: 22px;
+      }
+    .subtitle h1{
+        font-size: 80px;
+        margin-bottom: -80px
+    }
+    .about-me-right h2 {
+        font-size: 30px;
+      }
+    .best-service {
+        padding: 40px 1em;
+      }
+    .con-left h2 {
+        font-size: 38px;
+        line-height: 1.2em;
+        margin: 20px 0;
+      }
+    .best {
+        width: 100%;
+        margin-left: 0;
+      }
+
+}
+@media (max-width:470px){
+  .header-right {
+    width: 55%;
+
+  }
+  .hemberger {
+    display: inline-block;
+    line-height: 58px;
+    font-size: 30px;
+  }
+
+}
+@media (max-width:360px){
+  .hemberger {
+    line-height: 50px;
+    font-size: 25px;
+  }
+}
